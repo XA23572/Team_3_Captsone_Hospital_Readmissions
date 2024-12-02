@@ -32,11 +32,6 @@ This Approval requires at least a week. Once an application has been approved th
 a restricted access component of PhysioNet.
 
 #### Data Flow
-![image](https://github.com/user-attachments/assets/87c1ba0b-3016-4ebd-9704-cfb1e37ffd3f)
-
-
-![MIMICIIIDataFlowResizedimage](https://github.com/user-attachments/assets/de5cf739-91dc-4723-9303-9ba9d798cacd)
-
 
 ![MIMICIIIDataFlowResizedimage - Copy](https://github.com/user-attachments/assets/4d4fbcd4-f5ca-4e3f-ab40-1ff77cf533ad)
 

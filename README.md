@@ -48,3 +48,13 @@ We conducted thorough analisys to investigate trends in readmissions over differ
 We performed correlation analysis to assess the relationship between continuous features and the target variable "Readmission" and used the chi-square test to evaluate the association between categorical variables and readmissions. 
 For predicting the reason for readmission, we applied point-biserial correlation analysis to examine continuous input features against the multi-label target "Diagnosis_Category" and conducted chi-square tests on categorical features to identify significant associations.
 
+### Step 4: Model Training and Evaluation
+We trained multiple machine learning algorithms, including traditional methods, various ensemble techniques, and advanced ML models, on the dataset. Also, to optimize performance, we applied hyperparameter tuning to refine the models. 
+Evaluated model performance using precision, recall, F1-score.
+Performed data visualizations to plot the ROC curves and calculated the AUROC values to compare various models performances.
+
+## ResultS
+
+![image](https://github.com/user-attachments/assets/49fc47ee-17d5-4d13-a6cf-ca722f48f025) ![image](https://github.com/user-attachments/assets/786eb127-4e13-435c-8f4d-948fcbe7e3b3)
+
+

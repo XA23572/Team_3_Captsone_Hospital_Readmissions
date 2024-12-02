@@ -31,6 +31,9 @@ There are two key steps that must be completed before access is granted:
 This Approval requires at least a week. Once an application has been approved the researcher will receive emails containing instructions for downloading the database from PhysioNetWorks, 
 a restricted access component of PhysioNet.
 
+#### Data Flow
+![image](https://github.com/user-attachments/assets/87c1ba0b-3016-4ebd-9704-cfb1e37ffd3f)
+
 
 ## Project Workflow- 
 
@@ -53,8 +56,9 @@ We trained multiple machine learning algorithms, including traditional methods, 
 Evaluated model performance using precision, recall, F1-score.
 Performed data visualizations to plot the ROC curves and calculated the AUROC values to compare various models performances.
 
-## ResultS
+## Results
 
-![image](https://github.com/user-attachments/assets/49fc47ee-17d5-4d13-a6cf-ca722f48f025) ![image](https://github.com/user-attachments/assets/786eb127-4e13-435c-8f4d-948fcbe7e3b3)
+![image](https://github.com/user-attachments/assets/66b2a683-417a-449f-b191-9c348c516dac)   ![image](https://github.com/user-attachments/assets/b8dedb9d-3d92-4d0d-88cf-7dcf5aa6a1e3)
+
 
 

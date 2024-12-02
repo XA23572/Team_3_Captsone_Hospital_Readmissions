@@ -7,7 +7,7 @@ Through the integration of machine learning and advanced techniques, this projec
 data-driven insights in healthcare.
 
 
-##Research Questions:
+## Research Questions:
 
 1) Can we develop a predictive model to identify patients at high risk of readmission?
    This focuses on using predictive modeling to identify at-risk patients, enabling efficient resource allocation, reducing costs, and improving overall healthcare quality.
@@ -17,7 +17,7 @@ data-driven insights in healthcare.
 
    
    
-##Dataset:
+## Dataset:
 
 For this project, we have used the MIMIC-III Clinical Dataset. It is a publicly available dataset containing de-identified health information from over 40,000 critical care patients at 
 Beth Israel Deaconess Medical Center. It includes demographics, vital signs, diagnoses, medications, lab results, and clinical notes, enabling research in healthcare and machine learning.
@@ -32,18 +32,18 @@ This Approval requires at least a week. Once an application has been approved th
 a restricted access component of PhysioNet.
 
 
-##Project Workflow- 
+## Project Workflow- 
 
-###Step 1: Data Exploration
+### Step 1: Data Exploration
 The dataset includes information on 47,000 patients. Our analysis revealed that patients admitted under the categories "Emergency" and "Urgent" had the highest rates of readmission, while "Elective" and "Newborn" admissions had significantly fewer readmissions. 
 Additionally, the dataset contains various types of clinical notes, such as lab reports, discharge summaries, ECG, Echo, Nursing, and Social Work notes. A detailed analysis showed that every patient had a "Discharge Summary," which provides a comprehensive summary of all these note categories. 
 Therefore, we focused our work on these discharge summaries. They include critical patient information such as the reason for admission, services performed, medication and drug details, medical history, and, in most cases, social determinants of health (SDOH) data.
 
-###Step 2: Data Preprocessing
+### Step 2: Data Preprocessing
 We cleaned the patient data by removing records with missing hospital admission IDs and correcting discharge dates that were earlier than admission dates, which were likely data entry errors. This affected about 150 patient records. 
 For the clinical notes, we removed unnecessary special characters, eliminated blank lines, and converted all text to lowercase to ensure uniformity and simplify model processing. Additionally, we applied stop word removal to focus on meaningful words and used TF-IDF vectorization to highlight important terms by assigning higher weights to contextually significant words while reducing the influence of common terms. These steps ensured clean and reliable data for analysis.
 
-###Step 3: Exploratory Data Analysis
+### Step 3: Exploratory Data Analysis
 We conducted thorough analisys to investigate trends in readmissions over different timespans (30, 60, and 90 days) and compared readmission rates across various admission categories. 
 We performed correlation analysis to assess the relationship between continuous features and the target variable "Readmission" and used the chi-square test to evaluate the association between categorical variables and readmissions. 
 For predicting the reason for readmission, we applied point-biserial correlation analysis to examine continuous input features against the multi-label target "Diagnosis_Category" and conducted chi-square tests on categorical features to identify significant associations.

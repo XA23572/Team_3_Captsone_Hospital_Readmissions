@@ -38,6 +38,9 @@ a restricted access component of PhysioNet.
 ![MIMICIIIDataFlowResizedimage](https://github.com/user-attachments/assets/de5cf739-91dc-4723-9303-9ba9d798cacd)
 
 
+![MIMICIIIDataFlowResizedimage - Copy](https://github.com/user-attachments/assets/4d4fbcd4-f5ca-4e3f-ab40-1ff77cf533ad)
+
+
 ## Project Workflow- 
 
 ### Step 1: Data Exploration

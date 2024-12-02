@@ -1,4 +1,4 @@
-Introduction:
+### Introduction:
 
 Hospital readmission occurs when a patient is readmitted shortly after discharge, often due to complications, poor recovery, or inadequate post-discharge care. 
 This issue not only burdens healthcare systems but also costs the U.S. over $17 billion annually in preventable readmissions, highlighting gaps in care quality. 

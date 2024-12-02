@@ -35,6 +35,9 @@ a restricted access component of PhysioNet.
 ![image](https://github.com/user-attachments/assets/87c1ba0b-3016-4ebd-9704-cfb1e37ffd3f)
 
 
+![MIMICIIIDataFlowResizedimage](https://github.com/user-attachments/assets/de5cf739-91dc-4723-9303-9ba9d798cacd)
+
+
 ## Project Workflow- 
 
 ### Step 1: Data Exploration

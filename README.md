@@ -18,6 +18,7 @@ Research Questions:
    
    
 Dataset:
+
 For this project, we have used the MIMIC-III Clinical Dataset. It is a publicly available dataset containing de-identified health information from over 40,000 critical care patients at 
 Beth Israel Deaconess Medical Center. It includes demographics, vital signs, diagnoses, medications, lab results, and clinical notes, enabling research in healthcare and machine learning.
 Researchers are required to formally request access via a process documented on the MIMIC website.

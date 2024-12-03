@@ -10,9 +10,11 @@ data-driven insights in healthcare.
 ## Research Questions:
 
 1) Can we develop a predictive model to identify patients at high risk of readmission?
+
    This focuses on using predictive modeling to identify at-risk patients, enabling efficient resource allocation, reducing costs, and improving overall healthcare quality.
 
 2) Can we predict the reason for the readmission?
+
    This aims to uncover specific reasons for readmissions, supporting targeted interventions, better discharge planning, and enhanced patient care coordination.
 
    

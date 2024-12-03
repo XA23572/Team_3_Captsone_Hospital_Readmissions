@@ -61,7 +61,9 @@ Performed data visualizations to plot the ROC curves and calculated the AUROC va
 Conclusion
 
 This project highlights the capability of predictive models in identifying patients at risk of hospital readmission and uncovering the primary reasons for readmissions. By leveraging unstructured clinical notes along with structured data like ICD-9 codes for diagnosis and procedures, DRG codes, and sentiment analysis from clinical notes, the analysis provides actionable insights to reduce readmissions and enhance patient care.
+
 Key Insights:
+
     1) Readmission Risk Prediction:
         The GRU model demonstrated superior performance, achieving an F1-score of 0.98 for non-readmissions and 0.85 for readmissions, outperforming other approaches.
         Advanced techniques addressed class imbalance challenges, improving predictions for minority classes and enabling hospitals to target high-risk patients for timely interventions.

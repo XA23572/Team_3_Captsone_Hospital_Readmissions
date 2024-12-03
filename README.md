@@ -72,3 +72,29 @@ Multi-label classification models effectively uncovered overlapping diagnostic c
 Feature selection techniques, such as Chi-Square and Mutual Information, improved model efficiency and classification performance, providing actionable insightsfor discharge planning and targeted interventions.
 
 
+## Future Scope
+
+1. Studying Comorbidities and Readmission Risk
+
+    Comorbidities often weakly correlate with readmissions due to limited structured data insights.
+    Future Direction: Leverage NLP on clinical notes to identify richer interactions for better risk prediction.
+
+2. Using ICD-10 Instead of ICD-9
+
+    ICD-10 offers greater specificity, enabling more precise diagnostics and predictions.
+    Benefit: Refines models with detailed inputs, improving accuracy and risk stratification.
+
+3. Incorporating Social Determinants of Health (SDoH)
+
+    SDoH addresses biases by factoring in external influences like food access and transportation.
+    Future Focus: Use domain adaptation to improve generalization and real-world accuracy.
+
+4. Remote Health Devices for Better Predictions
+
+    Devices track recovery metrics in real-time, enabling smarter predictions.
+    Future Focus: Integrate device data to enhance model precision and adjust dynamically.
+
+5. Addressing Bias in Predictions
+
+    Models may favor overrepresented classes, underestimating rarer conditions like infections.
+    Solution: Use richer NLP techniques, sub-models, and Explainable AI to improve fairness and detection.

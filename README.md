@@ -93,8 +93,4 @@ Feature selection techniques, such as Chi-Square and Mutual Information, improve
 
     Devices track recovery metrics in real-time, enabling smarter predictions.
     Future Focus: Integrate device data to enhance model precision and adjust dynamically.
-
-5. Addressing Bias in Predictions
-
-    Models may favor overrepresented classes, underestimating rarer conditions like infections.
-    Solution: Use richer NLP techniques, sub-models, and Explainable AI to improve fairness and detection.
+   

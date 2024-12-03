@@ -58,17 +58,17 @@ Evaluated model performance using precision, recall, F1-score.
 Performed data visualizations to plot the ROC curves and calculated the AUROC values to compare various models performances.
 
 ## Conclusion
-Conclusion
 
 This project highlights the capability of predictive models in identifying patients at risk of hospital readmission and uncovering the primary reasons for readmissions. By leveraging unstructured clinical notes along with structured data like ICD-9 codes for diagnosis and procedures, DRG codes, and sentiment analysis from clinical notes, the analysis provides actionable insights to reduce readmissions and enhance patient care.
 
-Key Insights:
+1) Readmission Risk Prediction
+   
+The GRU model demonstrated superior performance, achieving an F1-score of 0.98 for non-readmissions and 0.85 for readmissions, outperforming other approaches.
+Advanced techniques addressed class imbalance challenges, improving predictions for minority classes and enabling hospitals to target high-risk patients for timely interventions.
 
-    1) Readmission Risk Prediction:
-        The GRU model demonstrated superior performance, achieving an F1-score of 0.98 for non-readmissions and 0.85 for readmissions, outperforming other approaches.
-        Advanced techniques addressed class imbalance challenges, improving predictions for minority classes and enabling hospitals to target high-risk patients for timely interventions.
-    2) Identifying Readmission Reasons:
-        Multi-label classification models effectively uncovered overlapping diagnostic categories and primary causes of readmissions.
-        Feature selection techniques, such as Chi-Square and Mutual Information, improved model efficiency and classification performance, providing actionable insights for discharge planning and targeted interventions.
+3) Identifying Readmission Reasons
+   
+Multi-label classification models effectively uncovered overlapping diagnostic categories and primary causes of readmissions.
+Feature selection techniques, such as Chi-Square and Mutual Information, improved model efficiency and classification performance, providing actionable insightsfor discharge planning and targeted interventions.
 
 

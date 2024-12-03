@@ -59,7 +59,6 @@ Performed data visualizations to plot the ROC curves and calculated the AUROC va
 
 ## Results
 
-![image](https://github.com/user-attachments/assets/66b2a683-417a-449f-b191-9c348c516dac)   ![image](https://github.com/user-attachments/assets/b8dedb9d-3d92-4d0d-88cf-7dcf5aa6a1e3)
 
 
 

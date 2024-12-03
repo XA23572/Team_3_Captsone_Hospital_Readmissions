@@ -65,13 +65,13 @@ This project highlights the capability of predictive models in identifying patie
 
 1) Readmission Risk Prediction
    
-The GRU model demonstrated superior performance, achieving an F1-score of 0.98 for non-readmissions and 0.85 for readmissions, outperforming other approaches.
+The **GRU model** demonstrated superior performance, achieving an F1-score of 0.98 for non-readmissions and 0.85 for readmissions, outperforming other approaches.
 Advanced techniques addressed class imbalance challenges, improving predictions for minority classes and enabling hospitals to target high-risk patients for timely interventions.
 
 3) Identifying Readmission Reasons
    
 Multi-label classification models effectively uncovered overlapping diagnostic categories and primary causes of readmissions.
-Feature selection techniques, such as Chi-Square and Mutual Information, improved model efficiency and classification performance, providing actionable insightsfor discharge planning and targeted interventions.
+Feature selection techniques, such as Chi-Square and Mutual Information, improved model efficiency and classification performance, providing actionable insightsfor discharge planning and targeted interventions. *FCNN with Attention Mechanism tuned using Keras Tuner* worked best out of all the models that we performed.
 
 
 ## Future Scope

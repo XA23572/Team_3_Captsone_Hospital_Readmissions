@@ -67,14 +67,14 @@ Performed data visualizations to plot the ROC curves and calculated the AUROC va
 
 ## Assumptions & Challanges
 
-Data Entry Issue
+1) Data Entry Issue
 One of the significant challenges encountered during this project was identifying and addressing data entry inconsistencies within the dataset. Specifically, for certain records, the discharge date was recorded as earlier than the admit date, which is logically incorrect. Upon analysis, we found that these discrepancies were primarily observed in outpatient services or one-day admissions, suggesting potential data entry issues with the timestamp fields. Such anomalies posed challenges during the calculation of critical features like length of stay (LOS) or when analyzing patient timelines for predicting readmissions, hence we removed such records (around 150) from our final dataset. 
 
-Bias Towards Frequent Classes
+2) Bias Towards Frequent Classes
 The MIMIC-III dataset may have an uneven distribution of readmission cases and also the reasons, with certain categories being underrepresented.
 While predicting the readmission reason, the model shows bias in some cases toward classes with higher support in the dataset.
 
-Evolving Medical Practices and Data Standards
+3) Evolving Medical Practices and Data Standards
 Medical practices, coding standards (e.g., transition from ICD-9 to ICD-10), and terminology evolve over time. The model may require frequent updates to stay relevant and aligned with current practices.
 
 ## Conclusion

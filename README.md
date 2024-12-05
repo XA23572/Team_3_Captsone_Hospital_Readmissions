@@ -17,7 +17,13 @@ data-driven insights in healthcare.
 
    This aims to uncover specific reasons for readmissions, supporting targeted interventions, better discharge planning, and enhanced patient care coordination.
 
-   
+## Key Differentiators of Our Hospital Readmission Prediction Model   
+
+1) Integration of Clinical Notes with Structured Data
+Unlike many existing models that rely solely on structured data, our product incorporates unstructured data such as clinical notes.
+2) Prediction of Readmission Reasons
+While most products focus on binary readmission prediction (yes/no), your model goes further by predicting specific readmission reasons through multi-label classification. This added layer of granularity provides actionable insights for healthcare providers to address underlying causes.
+
    
 ## Dataset:
 
@@ -58,6 +64,18 @@ For predicting the reason for readmission, we applied point-biserial correlation
 We trained multiple machine learning algorithms, including traditional methods, various ensemble techniques, and advanced ML models, on the dataset. Also, to optimize performance, we applied hyperparameter tuning to refine the models. 
 Evaluated model performance using precision, recall, F1-score.
 Performed data visualizations to plot the ROC curves and calculated the AUROC values to compare various models performances.
+
+## Assumptions & Challanges
+
+Data Entry Issue
+One of the significant challenges encountered during this project was identifying and addressing data entry inconsistencies within the dataset. Specifically, for certain records, the discharge date was recorded as earlier than the admit date, which is logically incorrect. Upon analysis, we found that these discrepancies were primarily observed in outpatient services or one-day admissions, suggesting potential data entry issues with the timestamp fields. Such anomalies posed challenges during the calculation of critical features like length of stay (LOS) or when analyzing patient timelines for predicting readmissions, hence we removed such records (around 150) from our final dataset. 
+
+Bias Towards Frequent Classes
+The MIMIC-III dataset may have an uneven distribution of readmission cases and also the reasons, with certain categories being underrepresented.
+While predicting the readmission reason, the model shows bias in some cases toward classes with higher support in the dataset.
+
+Evolving Medical Practices and Data Standards
+Medical practices, coding standards (e.g., transition from ICD-9 to ICD-10), and terminology evolve over time. The model may require frequent updates to stay relevant and aligned with current practices.
 
 ## Conclusion
 

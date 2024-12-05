@@ -20,9 +20,11 @@ data-driven insights in healthcare.
 ## Key Differentiators of Our Hospital Readmission Prediction Model   
 
 1) Integration of Clinical Notes with Structured Data
+   
    Unlike many existing models that rely solely on structured data, our product incorporates unstructured data such as clinical notes.
 
 2) Prediction of Readmission Reasons
+   
    While most products focus on binary readmission prediction (yes/no), your model goes further by predicting specific readmission reasons through multi-label classification. This added layer of granularity provides actionable insights for healthcare providers to address underlying causes.
 
    
